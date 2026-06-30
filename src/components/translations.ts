@@ -2,6 +2,7 @@ export const translations = {
   tr: {
     bio: 'Garanti BBVA\'da 12 kişilik bir ekiple legacy COBOL bankacılık sistemlerini modern Spring Boot + React mimarisine taşıyorum.',
     cvButton: 'CV indir (PDF)',
+    cvFile: '/cv-tr.pdf',
     aboutLabel: 'hakkımda',
     aboutText:
       '6+ yıllık deneyime sahip, kurumsal ölçekli ve regülasyona tabi bankacılık sistemleri geliştiren bir Senior Full-Stack Developer ve Team Lead\'im. Şu an Garanti BBVA\'da 12 kişilik bir ekibin team lead\'lerinden biri olarak para çekme/yatırma modernizasyon projesini yürütüyorum; legacy COBOL/mainframe akışlarını dayanıklı mikroservislere dönüştürüyorum. Dağıtık mimari, gRPC, event-driven tasarım ve legacy reverse engineering ana uzmanlık alanlarım.',
@@ -21,6 +22,7 @@ export const translations = {
   en: {
     bio: 'At Garanti BBVA, I lead a 12-person team migrating legacy COBOL banking systems to modern Spring Boot + React architecture.',
     cvButton: 'Download CV (PDF)',
+    cvFile: '/cv-en.pdf',
     aboutLabel: 'about',
     aboutText:
       'Senior Full-Stack Developer and Team Lead with 6+ years of experience delivering enterprise-scale, regulatory-compliant banking systems. Currently co-leading a 12-person squad at Garanti BBVA on a teller withdrawal & deposit modernization program, transforming legacy COBOL/mainframe flows into resilient microservices. Core expertise in distributed architecture, gRPC, event-driven design, and legacy reverse engineering.',

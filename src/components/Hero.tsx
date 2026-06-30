@@ -25,7 +25,7 @@ function Hero({ t }: Props) {
         <p className="hero-bio">{t.bio}</p>
 
         <div className="hero-actions">
-          <a className="btn btn-primary" href="/cv.pdf" download>{t.cvButton}</a>
+          <a className="btn btn-primary" href={t.cvFile} download>{t.cvButton}</a>
           <a className="btn" href="https://github.com/Athadan" target="_blank" rel="noreferrer">GitHub</a>
           <a className="btn" href="https://www.linkedin.com/in/ahmet-ko%C3%A7/" target="_blank" rel="noreferrer">LinkedIn</a>
         </div>
