@@ -6,12 +6,19 @@ function Experience({ t }: Props) {
   return (
     <section className="section">
       <div className="section-label">{t.expLabel}</div>
-      <div className="card">
-        <div className="card-head">
-          <span className="card-title">Garanti BBVA</span>
-          <span className="card-sub">{t.expRole}</span>
-        </div>
-        <p className="card-body">{t.expDesc}</p>
+      <div className="exp-list">
+        {t.experience.map((exp, i) => (
+          <div className="card" key={i}>
+            <div className="exp-head">
+              <div>
+                <div className="exp-role">{exp.role}</div>
+                <div className="exp-company">{exp.company}</div>
+              </div>
+              <div className="exp-date">{exp.date}</div>
+            </div>
+            <p className="exp-desc">{exp.desc}</p>
+          </div>
+        ))}
       </div>
     </section>
   );
